@@ -5,7 +5,7 @@ public class Main {
     Scanner in = new Scanner(System.in);
     static Main main = new Main();
 
-    private int length, width, perimeter;
+    private int perimeter;
 
     public static void main(String[] args) throws Exception {
         main.startProgram();
@@ -18,9 +18,9 @@ public class Main {
 
     public void queryLengthWidth() {
         System.out.print("Enter value of length: ");
-        length = in.nextInt();
+        int length = in.nextInt();
         System.out.print("Enter value of width: ");
-        width = in.nextInt();
+        int width = in.nextInt();
 
         main.setPerimeter(length, width);
     }
