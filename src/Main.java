@@ -21,7 +21,6 @@ public class Main {
         int length = in.nextInt();
         System.out.print("Enter value of width: ");
         int width = in.nextInt();
-
         main.setPerimeter(length, width);
     }
 
